@@ -3,13 +3,26 @@ package com.example.basesdekotlin
 fun main()
 {
     newTopic("Primeros pasos con Kotlin")
+    print("==================== ")
+    print(newTopic("Impresiones"))
+    println("======================================== ")
+    newTopic("Variables y constantes")
+    //Kotlin infiere tipos de datos
+    val a = 7 //constantes son val algo = valor forzosamente
+    //a = 2 //comprobamos que es una constante
+    val b: Int = 7 //Declaracion y asignacion de constante con su tipo de dato.
+    // Declaracion de variable
+    var c = 14
+    //Imprimir su valor con string template "$variable"
+    newTopic("Valor de la constante a: $a")
+    newTopic("El valor de la variable c: $c")
 }
-
+// metodo Topic/temas que imprime con formato de plantilla/template
 fun newTopic(topic: String) //metodos sin tipos son procedimientos
 {
-    /*print("==================== ")
-    print(newTopic("Primeros pasos con Kotlin"))
-    println("==================== $topic ==================== ")
-    print(topic)*/
-    println("========== $topic ========== ")
+/*print("==================== ")
+print(newTopic("Primeros pasos con Kotlin"))
+println("==================== $topic ==================== ")
+print(topic)*/
+println("\n========== $topic ========== ")
 }
