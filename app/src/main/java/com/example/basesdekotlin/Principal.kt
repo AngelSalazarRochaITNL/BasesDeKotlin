@@ -2,10 +2,9 @@ package com.example.basesdekotlin
 //click derecho en principal.kt y despues run principalKt
 fun main()
 {
-    newTopic("Primeros pasos con Kotlin")
-    print("==================== ")
+    /*newTopic("Primeros pasos con Kotlin")
     print(newTopic("Impresiones"))
-    println("======================================== ")
+    //println("========================================")
     newTopic("Variables y constantes")
     //Kotlin infiere tipos de datos
     val a = 7 //constantes son val algo = valor forzosamente
@@ -14,15 +13,16 @@ fun main()
     // Declaracion de variable
     var c = 14
     //Imprimir su valor con string template "$variable"
+
+    //String template. tema de juevez 07 - 10 - 2022
     newTopic("Valor de la constante a: $a")
-    newTopic("El valor de la variable c: $c")
+    newTopic("El valor de la variable c: $c")*/
+
+    //Funciones
+
 }
-// metodo Topic/temas que imprime con formato de plantilla/template
+
 fun newTopic(topic: String) //metodos sin tipos son procedimientos
 {
-/*print("==================== ")
-print(newTopic("Primeros pasos con Kotlin"))
-println("==================== $topic ==================== ")
-print(topic)*/
-println("\n========== $topic ========== ")
+    println("\n========== $topic ========== ")
 }
